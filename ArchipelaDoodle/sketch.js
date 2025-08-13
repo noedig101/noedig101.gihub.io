@@ -18,7 +18,7 @@ function setup() {
     this.y=y;
   }
   
-  items = [new item(1,400,400)];
+  items = [new item(1,400,400), new item(0,300,300)];
   
   drawItem = function(id){
     itm = items[id]
