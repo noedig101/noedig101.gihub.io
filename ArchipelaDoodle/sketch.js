@@ -52,6 +52,7 @@ function mouseReleased(){
 }
 
 function draw() {
-  background(220);
+  fill(255)
+  rect(0,0,800,800);
   drawItem(0);
 }
