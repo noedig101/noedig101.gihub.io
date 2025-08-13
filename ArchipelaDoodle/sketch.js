@@ -55,4 +55,5 @@ function draw() {
   fill(255)
   rect(0,0,800,800);
   drawItem(0);
+  drawItem(1);
 }
